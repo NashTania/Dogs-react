@@ -1,0 +1,23 @@
+
+import { connect } from 'react-redux';
+import { setDogsList } from '../actions/actions.js';
+import Breeds from '../components/breeds.js';
+
+const mapStateToProps = ( store ) => {
+  return {
+    breedsList: store.breedsList
+  };
+};
+
+const boundGetDogs = ( dispatch ) => {
+  return {
+    setDogsList: () => {
+      return dispatch( setDogsList() );
+    }
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  boundGetDogs
+)( Breeds );

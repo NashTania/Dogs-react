@@ -1,0 +1,128 @@
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+#root {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.header {
+  background-image: url("../images/header.jpg");
+  height: 450px;
+  max-width: 1200px;
+}
+
+.header-text {
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  color: #000000;
+  font-family: 'Fredoka One', cursive;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.navigation-block {
+  background-color: #051f21;
+  width: 100%;
+  height: 2rem;
+  padding-top: 0.5rem;
+}
+
+.navigation-link {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 300;
+}
+
+.page-header{
+  padding-top: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.breed-block-img-wrapper{
+  height: 250px;
+  background-color: #ffffff;
+}
+
+.breed-block-img {
+  width: 90%;
+  max-width: 300px;
+  max-height: 250px;
+  padding-left: 1rem;
+}
+
+.breed-block-p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.breed-block-p:hover{
+  color: #2babba;
+}
+
+
+.breed-img {
+  width: 90%;
+  max-width: 300px;
+  max-height: 250px;
+}
+
+.select-breed-wrapper {
+  padding-top: 1.5rem;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+#select-breed {
+  width: 60%;
+  height: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  background-color: #ffffff;
+
+}
+
+@media (min-width: 399px) {
+  .breed-block {
+    max-width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .breed-img-wrapper {
+    max-width: 90%;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 699px) {
+  .breed-block {
+    max-width: 33%;
+    padding-bottom: 3rem;
+  }
+
+  .breed-img-wrapper {
+    max-width: 40%;
+  }
+}
