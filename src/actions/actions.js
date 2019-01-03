@@ -1,4 +1,7 @@
+import {createStore, applyMiddleware} from 'redux';
+import thunk from 'redux-thunk';
 import { SET_DOGS_LIST, SET_RANDOM_IMG, SET_BREED_IMAGES } from '../constants/constants.js';
+import { store } from '../reducers/reducer.js'
 
 export function setDogsList() {
   return (dispatch) => {
@@ -7,10 +10,10 @@ export function setDogsList() {
         dispatch({
           type: SET_DOGS_LIST,
           obj: data.message
-        });
+        })
       }
-    );
-  };
+    )
+  }
 }
 
 export function setRandomImg (key, value) {
@@ -18,7 +21,7 @@ export function setRandomImg (key, value) {
     type: SET_RANDOM_IMG,
     key: key,
     value: value
-  };
+  }
 }
 
 export function setBreedImages (breed) {
@@ -29,8 +32,8 @@ export function setBreedImages (breed) {
           type: SET_BREED_IMAGES,
           breed: breed,
           arr: data.message
-        });
+        })
       }
-    );
-  };
+    )
+  }
 }

@@ -1,39 +1,48 @@
-import React from 'react';
+import React  from 'react';
+import { Link } from "react-router-dom";
 import '../css/styles.css';
-import ImagesList from './images-list.js';
-import PropTypes from 'prop-types';
+import ImagesList from './images-list.js'
 
 export default class AllImgesBreed extends React.Component {
-  constructor( props ) {
-    super( props );
+  constructor(props) {
+    super(props)
 
     this.state = {
       images: []
-    };
-  }
-
-  loadImages() {
-    const breed = this.props.match.params.breed;
-    if( this.props.breedImages === null || this.props.breedImages[breed] === undefined ) {
-      this.props.setBreedImages( breed ).then( () => {
-        this.setState({
-          images: this.props.breedImages[breed]
-        });
-      });
-    } else {
-      this.setState({
-        images: this.props.breedImages[breed]
-      });
     }
   }
 
   componentDidMount() {
-    this.loadImages();
+    const breed = this.props.match.params.breed;
+    if(this.props.breedImages === null || this.props.breedImages[breed] === undefined) {
+      this.props.setBreedImages(breed).then(() => {
+        this.setState({
+          images: this.props.breedImages[breed]
+        })
+      })
+    } else {
+      this.setState({
+        images: this.props.breedImages[breed]
+      })
+    }
   }
 
-  componentDidUpdate( props ) {
-    if ( props.match.params.breed !== this.props.match.params.breed ) {
-      this.loadImages();
+  componentDidUpdate(prevProps) {
+    const breed = this.props.match.params.breed;
+    console.log(this.props.match.params.breed)
+    console.log(this.props.match)
+    if(prevProps.match.params.breed !== this.props.match.params.breed) {
+      if(this.props.breedImages === null || this.props.breedImages[breed] === undefined) {
+        this.props.setBreedImages(breed).then(() => {
+          this.setState({
+            images: this.props.breedImages[breed]
+          })
+        })
+      } else {
+        this.setState({
+          images: this.props.breedImages[breed]
+        })
+      }
     }
   }
 
@@ -45,14 +54,6 @@ export default class AllImgesBreed extends React.Component {
         </p>
         <ImagesList images={this.state.images} />
       </div>
-    );
+    )
   }
 }
-
-AllImgesBreed.propTypes = {
-  'match': PropTypes.object,
-  'breedImages': PropTypes.object,
-  'setBreedImages': PropTypes.func,
-  'breed': PropTypes.string,
-  'params': PropTypes.object
-};

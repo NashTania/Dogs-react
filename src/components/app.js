@@ -1,5 +1,6 @@
 import React  from 'react';
 import '../css/styles.css';
+import AllBreeds from './all-breeds.js'
 
 export default class App extends React.Component {
 
@@ -8,9 +9,9 @@ export default class App extends React.Component {
       <div>
         <p className='header-text'> Funny dogs </p>
         <div className='header'>
-
+        
         </div>
       </div>
-    );
+    )
   }
 }
