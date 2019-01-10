@@ -45,8 +45,7 @@
             "always"
         ],
         "space-in-parens": [
-            "error",
-            "always", { "exceptions": ["{}"] }
+          2, "always", { "exceptions": ["{}"] }
           ],
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error"

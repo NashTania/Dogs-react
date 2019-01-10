@@ -58,9 +58,18 @@ body {
   padding-bottom: 5rem;
 }
 
+.infinite-scroll-component{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
 .breed-block-img-wrapper{
   height: 250px;
   background-color: #ffffff;
+  width: 300px;
 }
 
 .breed-block-img {
@@ -123,6 +132,10 @@ body {
   }
 
   .breed-img-wrapper {
-    max-width: 40%;
+      height: 250px;
+      background-color: #ffffff;
+      max-width: 300px;
+      width: 40%;
+      margin-bottom: 2rem;
   }
 }

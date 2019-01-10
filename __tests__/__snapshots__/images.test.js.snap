@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div>
+  <p
+    className="page-header"
+  >
+    affenpinscher
+  </p>
+  <div>
+    <div
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component"
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10147.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10185.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10225.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10437.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10439.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10447.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10680.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10787.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10848.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10859.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10986.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11211.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11262.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11263.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11279.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11283.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11345.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11365.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11422.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly when an empty array 1`] = `
+<p>
+  Loading
+</p>
+`;
+
+exports[`renders correctly when there are multiple items 1`] = `
+<div>
+  <p
+    className="page-header"
+  >
+    affenpinscher
+  </p>
+  <div>
+    <div
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component"
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10147.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10185.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10225.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10437.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10439.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10447.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10680.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10787.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10848.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10859.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10986.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11211.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11262.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11263.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11279.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11283.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11345.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11365.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_11422.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly when there is four item 1`] = `
+<div>
+  <p
+    className="page-header"
+  >
+    affenpinscher
+  </p>
+  <div>
+    <div
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component"
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10147.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10185.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10225.jpg"
+          />
+        </div>
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10437.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly when there is one item 1`] = `
+<div>
+  <p
+    className="page-header"
+  >
+    affenpinscher
+  </p>
+  <div>
+    <div
+      style={Object {}}
+    >
+      <div
+        className="infinite-scroll-component"
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "height": "auto",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          className="breed-img-wrapper"
+        >
+          <img
+            className="breed-img"
+            src="https://images.dog.ceo/breeds/affenpinscher/n02110627_10147.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
